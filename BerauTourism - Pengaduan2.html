@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pengaduan</title>
+	<link rel="stylesheet" type="text/css" href="styleNew.css">
+</head>
+<body>
+	<div class="fly">
+		<img class="logo" src="BerauTourism.png"
+		href="BerauTourism - Home2.html" width="150" height="60">
+		<div class="content">
+			<ul>
+				<li><a href="BerauTourism - Home2.html">Home</a></li>
+				<li><a href="BerauTourism - Berita.html">Berita</a></li>
+				<li><a href="BerauTourism - Wisata.html">Wisata</a></li>
+				<li><a href="BerauTourism - Kuliner.html">Kuliner</a></li>
+				<li><a href="BerauTourism - Seni Budaya.html">Seni Budaya</a></li>
+				<li><a href="BerauTourism - Pengaduan2.html">Pengaduan</a></li>
+			</ul>
+		</div>
+	</div>
+<div class="main">
+	<div class="content">
+	<h1 align='center'>Form Pengaduan Pariwisata</h1>
+	<div><form method="POST">
+        <tr>
+            <td  bgcolor="#CCCCCC"><table align="center" border="1"><tr><td>
+			<table align="center" cellpadding="8"  cellspacing="3">
+        <tr>
+            <td  width="120">Nama</td><td>:</td>
+            <td  width="237"><input name="nama" placeholder="Nama" type="text" size="35" maxlength="30" required></td>
+        </tr>
+        <tr>
+        	<td  width="120">E-mail</td><td>:</td>
+        	<td><input type="email" placeholder="inicontoh@email.com" size="35"
+				required pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+)*$" name="email" required></td>
+        </tr></table>
+	<table align="center" cellspacing="3">
+        <tr>
+            <td  width="135" cellpadding="8">No. HP</td>
+			<td width="16" cellpadding="8">:</td>
+            <td width="5"><select name='Kode Negara'>
+					<option value="Pilih kode negara" selected>Kode Negara</option>
+					<option value='+62'>Indonesia (+62)</option>
+					<option value='+60'>Malaysia (+60)</option>
+					<option value='+65'>Singapura (+65)</option>
+					<option value='+63'>Filipina (+63)</option>
+					<option value='+66'>Thailand (+66)</option>
+				</select></td>
+			<td><input placeholder="8xxxxxxxxxx" name="hp" type="text" size="18" maxlength="30" required pattern="[0-9[^a-zA-Z]]+" required></td>
+        </tr>
+	</table>
+	<table align="center" cellpadding="8"  cellspacing="3">
+        <tr>
+            <td  width="120">Nama Pariwisata</td><td>:</td>
+            <td  width="237"><input name="namap" placeholder="Nama Pariwisata" type="text" size="35" maxlength="30" required></td>
+        </tr>
+	<tr>
+            <td  width="120">Alamat Pariwisata</td><td>:</td>
+            <td><textarea placeholder="Alamat" name="alamat" cols="37" rows="5" required></textarea></td>
+        </tr>
+	<tr>
+            <td  width="120">Pesan Pengaduan</td><td>:</td>
+            <td><textarea placeholder="Ketik disini" name="saran" cols="37" rows="5" required></textarea></td>
+        </tr>
+        <tr>
+	    <td  width="120">Gambar</td><td>:</td>
+	    <td><input type="file" name="gambar" value="fileupload" id="fileupload" required>
+		</td>
+	</tr>
+	<tr></tr>
+	<tr>
+            <td></td>
+            <td></td>
+            <td align="right"><input type="submit" name="submit" value="Kirim"></td>
+	</tr>
+	    </table>
+		</td></tr></table>
+</form></div></div>
+<div class="footer">
+	<div class="content">
+		<p>
+			Copyright &copy; 2018
+		</p>
+	</div>
+</div>
+</div>
+</body>
+</html>
