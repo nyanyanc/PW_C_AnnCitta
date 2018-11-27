@@ -5,6 +5,10 @@
 
 body{
 	background-color: #f8f8f8;
+    background-image: url("BerauTourism.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-attachment:fixed;
 }
 
 /*Untuk Navbar*/
